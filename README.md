@@ -130,6 +130,8 @@ TCL (Transaction Control Language): COMMIT, ROLLBACK, SAVEPOINT
 DCL (Data Control Language): GRANT, REVOKE
 
 3. Difference Between DELETE, TRUNCATE, and DROP
+
+   
 | Command  | Deletes Rows | Rollback Possible | Resets Identity | Deletes Structure |
 | -------- | ------------ | ----------------- | --------------- | ----------------- |
 | DELETE   | Yes          | Yes               | No              | No                |
@@ -334,6 +336,8 @@ CROSS JOIN: Cartesian product (all combinations).
 SELF JOIN: A table joined with itself.
 
 22. Difference between INNER JOIN and LEFT JOIN
+
+
 | Feature       | INNER JOIN         | LEFT JOIN                           |
 | ------------- | ------------------ | ----------------------------------- |
 | Returns       | Only matching rows | All from left + matching from right |
@@ -518,6 +522,8 @@ LEAD(), LAG(), FIRST_VALUE()
 
 34. What is RANK() vs DENSE_RANK()?
 
+
+
 | Function       | Gap in Ranks | Example (3rd rank skipped) |
 | -------------- | ------------ | -------------------------- |
 | `RANK()`       | Yes          | 1, 2, 2, 4                 |
@@ -573,6 +579,8 @@ COMMIT;
 
 37. Difference between COMMIT and ROLLBACK
 
+    
+
 | Operation  | Meaning                                    | Effect                 |
 | ---------- | ------------------------------------------ | ---------------------- |
 | `COMMIT`   | Saves all changes made in the transaction  | Changes are permanent  |
@@ -618,6 +626,8 @@ Used automatically by the DB engine during transactions.
 
 
 40. Difference between Pessimistic and Optimistic Locking
+
+    
 | Lock Type           | Behavior                                       | Use Case                   |
 | ------------------- | ---------------------------------------------- | -------------------------- |
 | Pessimistic Locking | Locks data before accessing                    | High-conflict environments |
@@ -667,6 +677,8 @@ CALL give_bonus(101, 500);
 
 
 42. Difference between stored procedures and functions
+
+    
     
 | Feature           | Stored Procedure             | Function                    |
 | ----------------- | ---------------------------- | --------------------------- |
@@ -738,6 +750,8 @@ EXECUTE FUNCTION update_modified_time();
 Answer:
 Here are commonly used PostgreSQL data types:
 
+
+
 | Category   | Data Types                                               |
 | ---------- | -------------------------------------------------------- |
 | Numeric    | `INT`, `BIGINT`, `DECIMAL`, `NUMERIC`, `FLOAT`, `SERIAL` |
@@ -757,6 +771,8 @@ CREATE TABLE sample (
 
 
 46. Difference between NOW(), CURRENT_TIMESTAMP, and SYSDATE()
+
+
 
 | Function            | Description                        |
 | ------------------- | ---------------------------------- |
