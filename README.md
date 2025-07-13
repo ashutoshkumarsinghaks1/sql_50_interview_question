@@ -1,6 +1,8 @@
 # sql_50_interview_question
 
 🔹 Basic SQL Interview Questions
+
+
 1.What is SQL?
 
 2.What are the different types of SQL statements?
@@ -22,6 +24,8 @@
 10.What is denormalization?
 
 🔹 SQL Queries (Hands-on)
+
+
 11.Write a query to fetch all records from a table.
 
 12.Write a query to fetch unique values from a column.
@@ -43,6 +47,8 @@
 20.Write a query to swap values between two columns.
 
 🔹 Joins and Relationships
+
+
 21.What are joins in SQL? Name all types.
 
 22.What is the difference between INNER JOIN and LEFT JOIN?
@@ -54,6 +60,8 @@
 25.Write a query to join two tables and fetch matching records.
 
 🔹 Indexes and Views
+
+
 26.What is an index? What types are there?
 
 27.How does indexing improve query performance?
@@ -65,6 +73,8 @@
 30.What are materialized views?
 
 🔹 Advanced SQL Concepts
+
+
 31.What are subqueries? Explain with an example.
 
 32.What is a correlated subquery?
@@ -76,6 +86,8 @@
 35.What are GROUP BY and ORDER BY clauses?
 
 🔹 Transactions and Locks
+
+
 36.What is a transaction? What are its properties (ACID)?
 
 37.What is the difference between COMMIT and ROLLBACK?
@@ -87,6 +99,8 @@
 41.What is the difference between pessimistic and optimistic locking?
 
 🔹 Stored Procedures, Triggers, and Functions
+
+
 42.What is a stored procedure?
 
 43.What is the difference between stored procedures and functions?
@@ -96,6 +110,8 @@
 45.When would you use a trigger?
 
 🔹 Data Types and Functions
+
+
 46.What are common SQL data types?
 
 47.What is the difference between NOW(), CURRENT_TIMESTAMP, and SYSDATE()?
@@ -105,6 +121,8 @@
 47.What is the difference between ISNULL() and NULLIF()?
 
 🔹 Performance & Best Practices
+
+
 49.How can you optimize a slow SQL query?
 
 50.What are common reasons for poor SQL performance?
@@ -112,11 +130,15 @@
 
 
 🔹 Part 1: SQL Basics (1–10)
+
+
 1. What is SQL?
 Answer:
+
 SQL (Structured Query Language) is a standard language used to communicate with relational databases for storing, retrieving, and manipulating data.
 
-2. Types of SQL Statements
+3. Types of SQL Statements
+   
 Answer:
 
 DDL (Data Definition Language): CREATE, ALTER, DROP
