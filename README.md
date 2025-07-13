@@ -663,6 +663,8 @@ Helps with security and abstraction
 
 
 -- PostgreSQL stored procedure
+
+
 CREATE OR REPLACE PROCEDURE give_bonus(emp_id INT, bonus_amount NUMERIC)
 LANGUAGE plpgsql
 AS $$
